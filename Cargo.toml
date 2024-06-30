@@ -1,0 +1,8 @@
+[package]
+name = "sandy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thiserror = "1.0.61"
+x11 = { version = "2.21.0", features = ["xlib"] }
